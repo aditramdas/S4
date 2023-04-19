@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(void)
+{
+	int a , b , c, dis;
+	dis = b**2 - 4*a*c;
+	if(dis > 0)
+	{
+		printf("The roots are : %f & %f" , (-b + ((float)dis)**0.5)/(2*a), (-b - ((float)dis)**0.5)/(2*a));
+	}
+	else if ( dis == 0)
+	{
+		printf("The roots are : %f & %f" , (-b + ((float)dis)**0.5)/;
